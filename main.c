@@ -1,5 +1,5 @@
 /* Filename: Main.c
-Description: input four numbers and find the max and min
+Description: Input a guess and say whether it is higher or lower than the random number out of 100
 Author: Edgar Tulodziecki
 Date: 14/02/2023
 Version: 1 */
@@ -7,6 +7,7 @@ Version: 1 */
 #include <stdlib.h>
 
 int guess;
+
 int main(void) {
   srand(time(NULL));
   int random = rand() % 101;
